@@ -19,6 +19,7 @@ function SignIn({
 }
 
 function SignOut(props) {
+  console.log(123)
   return (
     <form
       action={async () => {
